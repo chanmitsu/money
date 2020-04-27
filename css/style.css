@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.contoner{
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/colum_top_190322_2.jpg);
+}
+
+header{
+    height: 50px;
+   background-color: whitesmoke;
+   display: flex;
+   align-items: center;
+}
+
+header span{
+    margin-left: 60px;
+    color: blue;
+}
+
+section{
+    height: 200PX;
+    background-image: url(../img/エンジニア.jpeg);
+    margin-top: 0;
+}
+
+section h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    color: black;
+}
+
+.sentence{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contoner2{
+    width: 60%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.Photo1{
+    height: 400px;
+    width: 70%;
+}
+
+hr{
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    background-color: rgb(13, 184, 184);
+    height: 5px;
+}
+
+.Photo2{
+    width: 60%;
+    margin-left: 170px;
+}
+
+main p{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    font-size: 30px;
+}
+
+footer{
+    height: 50px;
+   background-color: whitesmoke;
+   display: flex;
+   align-items: center;
+}
+
+footer span{
+    margin-left: 60px;
+    color: blue;
+}
+
+@media screen and (max-width: 700px){
+    header span{
+        display: none;
+    }
+
+    section{
+        height: 90px;
+    }
+
+    section h1{
+        font-size: 35px;
+    }
+
+    .Photo1{
+        height: 200px;
+        width: 70%;
+    }
+    
+    main h2{
+        font-size: 25px;
+    }
+
+    .Photo2{
+        width: 60%;
+        margin-left: 70px;
+    }
+
+    main p{
+        font-size: 15px;
+    }
+
+    ul{
+        display: block;
+        font-size: 15px;
+    }
+}
